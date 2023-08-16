@@ -1,3 +1,36 @@
 #t1{
     text-align: center;
 }
+.main-nav{
+    background-color: #8a2be2;
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.main-nav-item{
+    display:inline-block;
+}
+
+.main-nav-item a{
+    display: block;
+    padding: 10px 20px;
+    color: #ffff;
+    text-decoration: none;
+    border-right: 1px solid #ffff;
+}
+
+.main-nav-item a:hover{
+    background-color: #ffffff;
+    color: #8a2be2;
+}
+
+.main-nav-item a:active{
+    background-color: #ffffff;
+    color: #8a2be2;
+}
+
+#dp{
+    list-style: none;
+}
